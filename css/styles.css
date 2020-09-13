@@ -1,0 +1,124 @@
+/*Generales--------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+}
+/*Cabecera-----------------------------------------------------------------------------*/
+header{
+    width: 100%;
+    height: 73px;
+    background: #000000;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    line-height: 73px;
+}
+
+/*Banner (Imagen iguana)----------------------------------------------------------*/
+.banner{
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*padding: 20rem;*/
+    height: 720px;
+}
+
+/*Descripcion-------------------------------------------------------------------------*/
+
+#description{
+    width: 100%;
+    height: 348px;
+    background: #000000;
+}
+
+.text{
+    height: 200px;
+    width: 475px;
+    font-size: 16px;
+    text-align: left;
+    display: inline-block;
+    padding: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#verde{
+    width: 348px;
+    height: 240px;
+    padding: 20px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 35px;
+}
+
+p{
+    padding: 10px;
+    opacity: 1;
+}
+
+/*Caracteristicas-------------------------------------------------------------*/
+
+#icons{
+    width: auto;
+    height: 348px;
+    background: #1e1a13;
+    text-align: center;
+}
+
+h2{
+    padding-top: 68px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.vertical{
+    vertical-align: middle;
+    display: inline-block;
+    padding: 40px 70px 75px 140px;
+}
+
+#icons p{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/*----Seccion Imagenes-----------------------------------------------------------------*/
+#IguanaImagen{
+    height: 213px;
+    background: #000000;
+    padding: 50px 138px ;
+}
+
+.iguana{
+    width: 316px;
+    height: 202px;
+    display: inline-block;
+    padding: 5px;
+}
+
+/*-----------------------Footer------------------------------------*/
+
+footer{
+    height: 90px;
+    background: #1e1a13;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer a{
+    line-height: 90px;
+    color: #ffffff;
+}
